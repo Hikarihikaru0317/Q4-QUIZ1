@@ -13,22 +13,25 @@
   <div class="container">
     <div class="left">
   <img src="bmi.jpg" alt="Image" class="image">
-  <div class="container">
     <div class="right">
   <h1><p>MBI Calculator</p></h1>
-  <h2><p class="text">Body mass index (BMI) is a medical screening tool that measures the ratio of your height to your weight to estimate the amount of body fat you have. Healthcare providers calculate BMI by using weight in kilograms (kg) divided by the square of height in meters (m2).</p>
-  </h2>
-
+  <h2><p>Body mass index (BMI) is a medical screening tool that measures the ratio of your height to your weight to estimate the amount of body fat you have. Healthcare providers calculate BMI by using weight in kilograms (kg) divided by the square of height in meters (m2).
+ 	</h2></p>
+<lable>
   <label>height in meter</label>
 		<input type="text" class="form-control" id="height in value">
 
-		<label>weight in killogran</label>
-		<input type="text" class="form-control" id="Age">
-
-<button type="button" class="form-control" onclick="verifyAge()">weight in kilogram</button>
-		<button type="button" onClick="window.location.reload()"> killogram</button>
+		<button type="button" class="form-control" onclick="verifyAge()">meter</button>
+		
 	</div>
+</lable>
 
+	
+<label>weight in kilogram</label>
+		<input type="text" class="form-control" id="height in value">
+
+		<button type="button" class="form-control" onclick="verifyAge()">kilogram</button>
+		
 	<script>
 		function verifyAge(){
 			var age = document.getElementById('Age').value;
@@ -41,39 +44,16 @@
 				window.alert('Welcome!');
 			}
 		}
+			</script>
+
+			 
+  </div>
+
+  </div>
 	</script>
+</lable>
 
 
-<button type="button" class="form-control" onclick="verifyAge()">height in meter</button>
-		<button type="button" onClick="window.location.reload()"> meter</button>
-	</div>
-
-	<script>
-		function verifyAge(){
-			var height = document.getElementById('Age').value;
-
-			if (meter<18) {
-				window.alert('not eligible');
-
-			}
-			else{
-				window.alert('Welcome!');
-			}
-		}
-	</script>
 </div>
-
-
-
-
-
-
-
-
-
-
-
 </body>
-
-
 </html>
